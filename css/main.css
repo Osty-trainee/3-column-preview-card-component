@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: none;
+  src: url("../fonts/big-shoulders-display.bold.woff2") format("wolf2");
+}
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/LexendDeca-Regular.woff2") format("wolf2");
+}
+:root {
+  --white: hsl(0, 100%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --gray-100: hsl(0, 0%, 95%);
+  --green-950: hsl(179, 100%, 13%);
+  --green-500: hsl(170, 76%, 41%);
+  --cyan-800: hsl(184, 100%, 22%);
+  --cyan-500: hsl(184, 67%, 45%);
+  --gold-500: hsl(31, 77%, 52%);
+  --gold-200: hsl(42, 100%, 73%);
+  --space-1000: 5rem;
+  --space-600: 3rem;
+  --space-500: 2.5rem;
+  --space-400: 2rem;
+  --space-300: 1.5rem;
+  --space-100: 0.5rem;
+}/*# sourceMappingURL=main.css.map */
