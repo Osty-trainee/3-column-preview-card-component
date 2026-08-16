@@ -7,14 +7,13 @@
 }
 
 body {
-    font-family: $ff-body;
-    font-size: 0.9375rem;
     background-color: var(--white);
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-   padding: var(--space-500) 1.25rem;
+    padding: var(--space-500) 1.25rem;
 }
 
 img {
@@ -24,4 +23,20 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.attribution {
+    padding-top: var(--space-500);
+    font-size: 0.6875rem;
+    text-align: center;
+    color: var(--cyan-800);
+
+    a {
+        color: var(--cyan-500);
+        font-weight: 700;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
