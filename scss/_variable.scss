@@ -1,0 +1,28 @@
+:root {
+    //Colors for design
+    --white: hsl(0, 100%, 100%);
+    --black: hsl(0, 0%, 0%);
+
+    --gray-100: hsl(0, 0%, 95%);
+
+    --green-950: hsl(179, 100%, 13%);
+    --green-500: hsl(170, 76%, 41%);
+    
+    --cyan-800: hsl(184, 100%, 22%);
+    --cyan-500: hsl(184, 67%, 45%);
+
+    --gold-500: hsl(31, 77%, 52%);
+    --gold-200: hsl(42, 100%, 73%);
+
+    //Spacing for design
+    --space-1000: 5rem;   //80px
+    --space-600: 3rem;    //48px
+    --space-500: 2.5rem;  //40px
+    --space-400: 2rem;    //32px
+    --space-300: 1.5rem;  //24px
+    --space-100: 0.5rem;  //8px
+}
+
+//Fonts for design
+$ff-headings: 'Big Shoulders Display', sans-serif;
+$ff-body: 'Lexend Deca', sans-serif;
