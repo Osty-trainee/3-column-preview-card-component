@@ -1,0 +1,17 @@
+//Connect the font for headings (Big Shoulders Display)
+@font-face {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: none;
+    src: url('../fonts/big-shoulders-display.bold.woff2') format('wolf2');
+}
+
+//Connect the font for headings (Lexend Deca)
+@font-face {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/LexendDeca-Regular.woff2') format('wolf2');
+}
